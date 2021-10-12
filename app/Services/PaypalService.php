@@ -91,7 +91,7 @@ class PaypalService
             [
                 'return_url' => route('paypal.success', $orderId),
                 'cancel_url' => route('paypal.cancel'),
-                'brand_name' => 'WEBMALL',
+                'brand_name' => 'MERCHANT',
                 'locale' => 'en-US',
                 'landing_page' => 'BILLING',
                 'shipping_preference' => 'SET_PROVIDED_ADDRESS',

@@ -1,7 +1,7 @@
 # How to use
 Clone repo
 
-`git clone https://github.com/webdevmatics/webmall.git`
+`git clone https://github.com/ibrahim-999/merchant.git`
 
 `Save .env.example as .env and put your database credentials`
 
@@ -17,13 +17,13 @@ Set application key
 
 And Migrate with
 
-`php artisan migrate --seed` or `php artisan migrate:fresh --seed`
+`php artisan migrate --seed`
 
  `php artisan storage:link`
 
 
 Login Credentials for admin panel
 
- admin@webmall.com  password : password
- seller1@webmall.com  password : password
- seller2@webmall.com  password : password
+ admin@admin.com  password : password
+ seller1@seller.com  password : password
+ seller2@seller.com  password : password
