@@ -66,7 +66,7 @@
                                     <li>SubTotal<span>{{\Cart::session(auth()->id())->getSubTotal()}}</span></li>
                                     <li>Total<span>{{\Cart::session(auth()->id())->getTotal()}}</span></li>
                                 </ul>
-                                <a href="{{route('cart.checkout')}}">Proceed to checkout</a>
+<!--                                <a href="{{route('cart.checkout')}}">Proceed to checkout</a>-->
                             </div>
                         </div>
                     </div>

@@ -29,7 +29,7 @@
                     <div class="details-price">
                         <span>${{$product->price}}</span>
                     </div>
-                    <p>{!! $product->description !!}</p>
+<!--                    <p>{{$product->description}}</p>-->
 
                     <div class="quickview-plus-minus">
 

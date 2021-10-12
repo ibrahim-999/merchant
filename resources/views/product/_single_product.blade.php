@@ -4,8 +4,6 @@
             <a href="{{route('products.show', $product)}}">
                 @if(!empty($product->cover_img))
                     <img src="{{asset('storage/'.$product->cover_img)}}" alt="">
-                @else
-                    <img src="/assets/img/product/electro/1.jpg" alt="">
                 @endif
             </a>
             <div class="product-action-right">
@@ -29,7 +27,7 @@
                 <i class="icofont icofont-star"></i>
             </div>
             <h4><a href="{{route('products.show', $product)}}">{{$product->name}}</a></h4>
-            <span>{{$product->description}}</span>
+<!--            <span>{{$product->description}}</span>-->
             <h5>$ {{$product->price}}</h5>
         <p>{{$product->shop->owner->name ?? 'n/a'}}</p>
         </div>
