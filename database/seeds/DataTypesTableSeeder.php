@@ -12,12 +12,12 @@ class DataTypesTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('data_types')->delete();
-        
+
         \DB::table('data_types')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'name' => 'users',
@@ -32,10 +32,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-02-11 00:10:11',
-                'updated_at' => '2020-02-11 00:10:11',
+                'created_at' => '2021-10-11 00:10:11',
+                'updated_at' => '2021-10-11 00:10:11',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'name' => 'menus',
@@ -50,10 +50,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-02-11 00:10:11',
-                'updated_at' => '2020-02-11 00:10:11',
+                'created_at' => '2021-10-11 00:10:11',
+                'updated_at' => '2021-10-11 00:10:11',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'name' => 'roles',
@@ -68,10 +68,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"desc","default_search_key":null,"scope":null}',
-                'created_at' => '2020-02-11 00:10:11',
-                'updated_at' => '2020-02-19 17:28:01',
+                'created_at' => '2021-10-11 00:10:11',
+                'updated_at' => '2021-10-12 17:28:01',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'name' => 'categories',
@@ -86,10 +86,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-02-11 00:10:14',
-                'updated_at' => '2020-02-11 00:10:14',
+                'created_at' => '2021-10-11 00:10:14',
+                'updated_at' => '2021-10-11 00:10:14',
             ),
-            4 => 
+            4 =>
             array (
                 'id' => 5,
                 'name' => 'posts',
@@ -104,10 +104,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-02-11 00:10:14',
-                'updated_at' => '2020-02-11 00:10:14',
+                'created_at' => '2021-10-11 00:10:14',
+                'updated_at' => '2021-10-11 00:10:14',
             ),
-            5 => 
+            5 =>
             array (
                 'id' => 6,
                 'name' => 'pages',
@@ -122,10 +122,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => NULL,
-                'created_at' => '2020-02-11 00:10:14',
-                'updated_at' => '2020-02-11 00:10:14',
+                'created_at' => '2021-10-11 00:10:14',
+                'updated_at' => '2021-10-11 00:10:14',
             ),
-            6 => 
+            6 =>
             array (
                 'id' => 7,
                 'name' => 'orders',
@@ -140,10 +140,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
-                'created_at' => '2020-02-11 00:22:34',
+                'created_at' => '2021-10-11 00:22:34',
                 'updated_at' => '2020-02-13 01:06:26',
             ),
-            7 => 
+            7 =>
             array (
                 'id' => 8,
                 'name' => 'shops',
@@ -158,10 +158,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
-                'created_at' => '2020-02-19 17:15:37',
-                'updated_at' => '2020-02-19 17:16:25',
+                'created_at' => '2021-10-12 17:15:37',
+                'updated_at' => '2021-10-12 17:16:25',
             ),
-            8 => 
+            8 =>
             array (
                 'id' => 9,
                 'name' => 'products',
@@ -176,10 +176,10 @@ class DataTypesTableSeeder extends Seeder
                 'generate_permissions' => 1,
                 'server_side' => 0,
                 'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
-                'created_at' => '2020-02-19 17:18:39',
-                'updated_at' => '2020-02-19 18:23:32',
+                'created_at' => '2021-10-12 17:18:39',
+                'updated_at' => '2021-10-12 18:23:32',
             ),
-            9 => 
+            9 =>
             array (
                 'id' => 10,
                 'name' => 'coupons',
@@ -197,7 +197,7 @@ class DataTypesTableSeeder extends Seeder
                 'created_at' => '2020-04-04 09:11:42',
                 'updated_at' => '2020-04-04 09:11:42',
             ),
-            10 => 
+            10 =>
             array (
                 'id' => 13,
                 'name' => 'transactions',
@@ -215,7 +215,7 @@ class DataTypesTableSeeder extends Seeder
                 'created_at' => '2020-08-15 18:02:27',
                 'updated_at' => '2020-08-15 18:36:32',
             ),
-            11 => 
+            11 =>
             array (
                 'id' => 14,
                 'name' => 'sub_orders',
@@ -234,7 +234,7 @@ class DataTypesTableSeeder extends Seeder
                 'updated_at' => '2020-08-15 18:03:17',
             ),
         ));
-        
-        
+
+
     }
 }

@@ -12,12 +12,12 @@ class PostsTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('posts')->delete();
-        
+
         \DB::table('posts')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'author_id' => 0,
@@ -32,10 +32,10 @@ class PostsTableSeeder extends Seeder
                 'meta_keywords' => 'keyword1, keyword2, keyword3',
                 'status' => 'PUBLISHED',
                 'featured' => 0,
-                'created_at' => '2020-02-11 00:10:14',
-                'updated_at' => '2020-02-11 00:10:14',
+                'created_at' => '2021-10-11 00:10:14',
+                'updated_at' => '2021-10-11 00:10:14',
             ),
-            1 => 
+            1 =>
             array (
                 'id' => 2,
                 'author_id' => 0,
@@ -52,10 +52,10 @@ class PostsTableSeeder extends Seeder
                 'meta_keywords' => 'keyword1, keyword2, keyword3',
                 'status' => 'PUBLISHED',
                 'featured' => 0,
-                'created_at' => '2020-02-11 00:10:14',
-                'updated_at' => '2020-02-11 00:10:14',
+                'created_at' => '2021-10-11 00:10:14',
+                'updated_at' => '2021-10-11 00:10:14',
             ),
-            2 => 
+            2 =>
             array (
                 'id' => 3,
                 'author_id' => 0,
@@ -70,10 +70,10 @@ class PostsTableSeeder extends Seeder
                 'meta_keywords' => 'keyword1, keyword2, keyword3',
                 'status' => 'PUBLISHED',
                 'featured' => 0,
-                'created_at' => '2020-02-11 00:10:14',
-                'updated_at' => '2020-02-11 00:10:14',
+                'created_at' => '2021-10-11 00:10:14',
+                'updated_at' => '2021-10-11 00:10:14',
             ),
-            3 => 
+            3 =>
             array (
                 'id' => 4,
                 'author_id' => 0,
@@ -90,11 +90,11 @@ class PostsTableSeeder extends Seeder
                 'meta_keywords' => 'keyword1, keyword2, keyword3',
                 'status' => 'PUBLISHED',
                 'featured' => 0,
-                'created_at' => '2020-02-11 00:10:14',
-                'updated_at' => '2020-02-11 00:10:14',
+                'created_at' => '2021-10-11 00:10:14',
+                'updated_at' => '2021-10-11 00:10:14',
             ),
         ));
-        
-        
+
+
     }
 }

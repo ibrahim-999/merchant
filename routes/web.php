@@ -26,22 +26,16 @@ Route::get('/add-to-cart/{product}', 'CartController@add')->name('cart.add')->mi
 Route::get('/cart', 'CartController@index')->name('cart.index')->middleware('auth');
 Route::get('/cart/destroy/{itemId}', 'CartController@destroy')->name('cart.destroy')->middleware('auth');
 Route::get('/cart/update/{itemId}', 'CartController@update')->name('cart.update')->middleware('auth');
-Route::get('/cart/checkout', 'CartController@checkout')->name('cart.checkout')->middleware('auth');
-Route::get('/cart/apply-coupon', 'CartController@applyCoupon')->name('cart.coupon')->middleware('auth');
+//Route::get('/cart/checkout', 'CartController@checkout')->name('cart.checkout')->middleware('auth');
+//Route::get('/cart/apply-coupon', 'CartController@applyCoupon')->name('cart.coupon')->middleware('auth');
 
 Route::resource('orders', 'OrderController')->only('store')->middleware('auth');
 
 Route::resource('shops','ShopController')->middleware('auth');
 
-
-Route::get('paypal/checkout/{order}', 'PayPalController@getExpressCheckout')->name('paypal.checkout');
-Route::get('paypal/checkout-success/{order}', 'PayPalController@getExpressCheckoutSuccess')->name('paypal.success');
-Route::get('paypal/checkout-cancel', 'PayPalController@cancelPage')->name('paypal.cancel');
-
-
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
-    Route::get('/order/pay/{suborder}', 'SubOrderController@pay')->name('order.pay');
+    //Route::get('/order/pay/{suborder}', 'SubOrderController@pay')->name('order.pay');
 });
 
 

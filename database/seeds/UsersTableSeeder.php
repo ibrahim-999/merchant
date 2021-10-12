@@ -29,7 +29,7 @@ class UsersTableSeeder extends Seeder
                 'remember_token' => 'EbrJUMkdZPGKaaZSnJsgooPS1gSl8R2zkX2FBCupEVZ4qnKLvvg3MGAdFROD',
                 'settings' => NULL,
                 'created_at' => '2020-02-09 12:42:53',
-                'updated_at' => '2020-02-11 00:15:23',
+                'updated_at' => '2021-10-11 00:15:23',
             ),
             1 =>
             array (
@@ -42,8 +42,8 @@ class UsersTableSeeder extends Seeder
                 'password' => '$2y$10$xJacK/k89sSDbvDvqaMnC.KLEHOZr/YhqQMVSrvrTVhjggQgVhzpq',
                 'remember_token' => NULL,
                 'settings' => '{"locale":"en"}',
-                'created_at' => '2020-02-11 00:16:34',
-                'updated_at' => '2020-02-19 17:25:45',
+                'created_at' => '2021-10-11 00:16:34',
+                'updated_at' => '2021-10-12 17:25:45',
             ),
             2 =>
             array (
@@ -56,8 +56,8 @@ class UsersTableSeeder extends Seeder
                 'password' => '$2y$10$xJacK/k89sSDbvDvqaMnC.KLEHOZr/YhqQMVSrvrTVhjggQgVhzpq',
                 'remember_token' => NULL,
                 'settings' => NULL,
-                'created_at' => '2020-02-11 00:16:34',
-                'updated_at' => '2020-02-11 00:16:34',
+                'created_at' => '2021-10-11 00:16:34',
+                'updated_at' => '2021-10-11 00:16:34',
             ),
             3 =>
             array (
@@ -70,8 +70,8 @@ class UsersTableSeeder extends Seeder
                 'password' => '$2y$10$xJacK/k89sSDbvDvqaMnC.KLEHOZr/YhqQMVSrvrTVhjggQgVhzpq',
                 'remember_token' => NULL,
                 'settings' => NULL,
-                'created_at' => '2020-02-11 00:16:34',
-                'updated_at' => '2020-02-11 00:16:34',
+                'created_at' => '2021-10-11 00:16:34',
+                'updated_at' => '2021-10-11 00:16:34',
             ),
             4 =>
             array (
@@ -84,8 +84,8 @@ class UsersTableSeeder extends Seeder
                 'password' => '$2y$10$xJacK/k89sSDbvDvqaMnC.KLEHOZr/YhqQMVSrvrTVhjggQgVhzpq',
                 'remember_token' => NULL,
                 'settings' => NULL,
-                'created_at' => '2020-02-11 00:16:34',
-                'updated_at' => '2020-02-11 00:16:34',
+                'created_at' => '2021-10-11 00:16:34',
+                'updated_at' => '2021-10-11 00:16:34',
             ),
         ));
 

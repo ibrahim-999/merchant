@@ -12,12 +12,12 @@ class PagesTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('pages')->delete();
-        
+
         \DB::table('pages')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'author_id' => 0,
@@ -30,11 +30,11 @@ class PagesTableSeeder extends Seeder
                 'meta_description' => 'Yar Meta Description',
                 'meta_keywords' => 'Keyword1, Keyword2',
                 'status' => 'ACTIVE',
-                'created_at' => '2020-02-11 00:10:14',
-                'updated_at' => '2020-02-11 00:10:14',
+                'created_at' => '2021-10-11 00:10:14',
+                'updated_at' => '2021-10-11 00:10:14',
             ),
         ));
-        
-        
+
+
     }
 }
