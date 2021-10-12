@@ -29,7 +29,7 @@ Login Credentials for admin panel
  admin@admin.com  password : password
  seller1@seller.com  password : password
  seller2@seller.com  password : password
-
-# Voyager template for the backend 
-# e-commerce mart for the frontend
-# unfortunately without vue.js but i used livewire instead due to deadline
+ 
+Voyager template for the backend  
+e-commerce mart for the frontend
+unfortunately without vue.js but i used livewire instead due to deadline
